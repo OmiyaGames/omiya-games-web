@@ -1,20 +1,10 @@
-# [Omiya Games](https://www.omiyagames.com/) - Template Unity Package
+# [Omiya Games](https://www.omiyagames.com/) - Web
 
-[![Template Unity Package documentation](https://github.com/OmiyaGames/template-unity-package/workflows/Host%20DocFX%20Documentation/badge.svg)](https://omiyagames.github.io/template-unity-package/) [![Mirroring](https://github.com/OmiyaGames/template-unity-package/workflows/Mirroring/badge.svg)](https://bitbucket.org/OmiyaGames/template-unity-package) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I51KS8F)
+[![Documentation](https://github.com/OmiyaGames/omiya-games-web/workflows/Host%20DocFX%20Documentation/badge.svg)](https://omiyagames.github.io/omiya-games-web/) [![Mirroring](https://github.com/OmiyaGames/omiya-games-web/workflows/Mirroring/badge.svg)](https://bitbucket.org/OmiyaGames/omiya-games-web) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I51KS8F)
 
 ![Unity Package Manager](https://omiyagames.github.io/template-unity-package/resources/preview.png)
 
-**Template Unity Package** is a Github template [Omiya Games](https://www.omiyagames.com/) uses to start a new [Unity](https://unity.com/) package.  To use this template for your own purposes, we recommend:
-
-- Clicking on the green "Use this template" button to create a new online repository on Github directly, or
-- Click the "Releases" link, and download the latest archive as zip or gzip file.
-
-From there, consult the following documentation to get a better idea of what files should be edited and/or renamed, and how:
-
-- This project's [own documentation](https://omiyagames.github.io/template-unity-package/)
-- [*How to Split Up an Existing Unity Git Project into Smaller Unity Packages*](https://www.taroomiya.com/2020/04/29/how-to-split-up-an-existing-unity-git-project-into-smaller-unity-packages/) by [Taro Omiya](https://github.com/japtar10101)
-
-This package uses [DocFX](https://dotnet.github.io/docfx/) and Github Actions to auto-generate its documentation from both the comments in the source code and the Markdown files in the [`Documentation~`](/Documentation~) directory.  Consult the manual on [customizing documentation files](https://omiyagames.github.io/template-unity-package/manual/customizeDocumentation.html) for your own packages.  There is also has a pre-made [Doxygen](https://github.com/doxygen/doxygen) settings file in the same directory to run Doxywizard through.
+This package is currently under construction. For more info, visit [Omiya Games](https://www.omiyagames.com/).
 
 ## Install
 
@@ -39,12 +29,12 @@ npm install -g openupm-cli
 ```
 Then, to install this package, just run the following command at the root of your Unity project:
 ```
-openupm add com.omiyagames.template
+openupm add com.omiyagames.web
 ```
 
 ## Resources
 
-- [Documentation](https://omiyagames.github.io/template-unity-package/)
+- [Documentation](https://omiyagames.github.io/omiya-games-web/)
 - [Change Log](/CHANGELOG.md)
 
 ## LICENSE
