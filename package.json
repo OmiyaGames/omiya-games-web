@@ -4,9 +4,9 @@
   "version": "0.1.0-preview.1",
   "unity": "2019.3",
   "unityRelease": "13f1",
-  "description": "Helper tools on web-related stuff.",
-  "category": "Tool",
-  "type": "tool",
+  "description": "Helper library on web-related stuff.",
+  "category": "Library",
+  "type": "library",
   "license": "MIT",
   "author": {
     "name": "Taro Omiya",
@@ -21,14 +21,9 @@
     "Omiya Games",
     "Scripts",
     "Template",
-    "Tool"
-  ],
-  "samples": [
-    {
-      "displayName": "Example 1",
-      "description": "This sample is just an example",
-      "path": "Samples~/Example1"
-    }
+    "Tool",
+    "Web",
+    "Library"
   ],
   "scopedRegistries": [
     {
