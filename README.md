@@ -2,9 +2,7 @@
 
 [![Documentation](https://github.com/OmiyaGames/omiya-games-web/workflows/Host%20DocFX%20Documentation/badge.svg)](https://omiyagames.github.io/omiya-games-web/) [![Mirroring](https://github.com/OmiyaGames/omiya-games-web/workflows/Mirroring/badge.svg)](https://bitbucket.org/OmiyaGames/omiya-games-web) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I51KS8F)
 
-![Unity Package Manager](https://omiyagames.github.io/template-unity-package/resources/preview.png)
-
-This package is currently under construction. For more info, visit [Omiya Games](https://www.omiyagames.com/).
+A set of libraries [Omiya Games](https://www.omiyagames.com/) uses to support web-related features and activities.
 
 ## Install
 
@@ -21,9 +19,7 @@ While easy and straightforward, this method has a few major downside: it does no
 
 ### Through [OpenUPM](https://openupm.com/)
 
-Installing via [OpenUPM's command line tool](https://openupm.com/) is recommended because it supports dependency resolution, upgrading, and downgrading this package.  Given this package is just an example, thought, it hadn't been added into OpenUPM yet.  So the rest of these instructions are hypothetical...for now...
-
-If you haven't already [installed OpenUPM](https://openupm.com/docs/getting-started.html#installing-openupm-cli), you can do so through Node.js's `npm` (obviously have Node.js installed in your system first):
+Installing via [OpenUPM's command line tool](https://openupm.com/) is recommended because it supports dependency resolution, upgrading, and downgrading this package.  If you haven't already [installed OpenUPM](https://openupm.com/docs/getting-started.html#installing-openupm-cli), you can do so through Node.js's `npm` (obviously have Node.js installed in your system first):
 ```
 npm install -g openupm-cli
 ```
