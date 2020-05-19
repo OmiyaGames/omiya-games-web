@@ -31,10 +31,10 @@ openupm add com.omiyagames.web
 ## Resources
 
 - [Documentation](https://omiyagames.github.io/omiya-games-web/)
-- [Change Log](/CHANGELOG.md)
+- [Change Log](https://omiyagames.github.io/omiya-games-web/manual/changelog.html)
 
 ## LICENSE
 
-Overall package is licensed under [MIT](/LICENSE.md), unless otherwise noted in the [3rd party licenses](/THIRD%20PARTY%20NOTICES.md) file and/or source code.
+Overall package is licensed under [MIT](https://github.com/OmiyaGames/omiya-games-web/blob/master/LICENSE.md), unless otherwise noted in the [3rd party licenses](https://github.com/OmiyaGames/omiya-games-web/blob/master/THIRD%20PARTY%20NOTICES.md) file and/or source code.
 
 Copyright (c) 2019-2020 Omiya Games
