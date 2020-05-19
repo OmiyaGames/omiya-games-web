@@ -84,7 +84,7 @@
   <h1 id="OmiyaGames_Web_PlatformSpecificLink" data-uid="OmiyaGames.Web.PlatformSpecificLink" class="text-break">Struct PlatformSpecificLink
   </h1>
   <div class="markdown level0 summary"><p>A struct that returns a link specific to a platform.
-Useful as a <pre><code>SerializedField</code></pre> set in the inspector.</p>
+Useful as a <see cref="!:SerializedField"></see> set in the inspector.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OmiyaGames.Web.html">OmiyaGames.Web</a></h6>
@@ -94,13 +94,44 @@ Useful as a <pre><code>SerializedField</code></pre> set in the inspector.</p>
     <pre><code class="lang-csharp hljs">[Serializable]
 public struct PlatformSpecificLink</code></pre>
   </div>
+  <h5 id="OmiyaGames_Web_PlatformSpecificLink_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p><copyright file="PlatformSpecificLink.cs" company="Omiya Games">
+The MIT License (MIT)<p>
+<p>Copyright (c) 2014-2020 Omiya Games</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+</copyright>
+<table><thead><tr><th>Revision</th><th>Description</th></tr></thead><tbody><tr><td>
+<strong>Version:</strong> 0.0.0-preview.1<br>
+<strong>Date:</strong> 9/22/2016<br>
+<strong>Author:</strong> Taro Omiya
+</td><td>Initial verison.</td></tr><tr><td>
+<strong>Version:</strong> 0.1.0-preview.1<br>
+<strong>Date:</strong> 5/17/2020<br>
+<strong>Author:</strong> Taro Omiya
+</td><td>Converting the file to a package.</td></tr></tbody></table></p>
+</div>
   <h3 id="properties">Properties
   </h3>
   
   
   <a id="OmiyaGames_Web_PlatformSpecificLink_Platform_" data-uid="OmiyaGames.Web.PlatformSpecificLink.Platform*"></a>
   <h4 id="OmiyaGames_Web_PlatformSpecificLink_Platform" data-uid="OmiyaGames.Web.PlatformSpecificLink.Platform">Platform</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets what native app store this platform supports.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -125,7 +156,8 @@ public struct PlatformSpecificLink</code></pre>
   
   <a id="OmiyaGames_Web_PlatformSpecificLink_PlatformLink_" data-uid="OmiyaGames.Web.PlatformSpecificLink.PlatformLink*"></a>
   <h4 id="OmiyaGames_Web_PlatformSpecificLink_PlatformLink" data-uid="OmiyaGames.Web.PlatformSpecificLink.PlatformLink">PlatformLink</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the link to the native app store.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -146,11 +178,16 @@ public struct PlatformSpecificLink</code></pre>
       </tr>
     </tbody>
   </table>
+  <h5 id="OmiyaGames_Web_PlatformSpecificLink_PlatformLink_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="OmiyaGames.Web.PlatformSpecificLink.html#OmiyaGames_Web_PlatformSpecificLink_GetPlatformLink_OmiyaGames_Web_PlatformSpecificLink_SupportedPlatforms_">GetPlatformLink(PlatformSpecificLink.SupportedPlatforms)</a></div>
+  </div>
   
   
   <a id="OmiyaGames_Web_PlatformSpecificLink_WebLink_" data-uid="OmiyaGames.Web.PlatformSpecificLink.WebLink*"></a>
   <h4 id="OmiyaGames_Web_PlatformSpecificLink_WebLink" data-uid="OmiyaGames.Web.PlatformSpecificLink.WebLink">WebLink</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the default web link.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -171,13 +208,18 @@ public struct PlatformSpecificLink</code></pre>
       </tr>
     </tbody>
   </table>
+  <h5 id="OmiyaGames_Web_PlatformSpecificLink_WebLink_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">OmiyaGames.Web.PlatformSpecificLink.defaultWebLink</span></div>
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="OmiyaGames_Web_PlatformSpecificLink_GetPlatformLink_" data-uid="OmiyaGames.Web.PlatformSpecificLink.GetPlatformLink*"></a>
   <h4 id="OmiyaGames_Web_PlatformSpecificLink_GetPlatformLink_OmiyaGames_Web_PlatformSpecificLink_SupportedPlatforms_" data-uid="OmiyaGames.Web.PlatformSpecificLink.GetPlatformLink(OmiyaGames.Web.PlatformSpecificLink.SupportedPlatforms)">GetPlatformLink(PlatformSpecificLink.SupportedPlatforms)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Grabs a link for a specific platform.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

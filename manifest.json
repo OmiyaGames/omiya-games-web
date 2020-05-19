@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OmiyaGames.Web.PlatformSpecificLink.SupportedPlatforms.html",
-          "hash": "CtfwZAeBDvBmdrjmHoPcWQ=="
+          "hash": "aqkDnsO/+5g/mSRhR6p0Mw=="
         }
       },
       "is_incremental": false,
@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OmiyaGames.Web.PlatformSpecificLink.html",
-          "hash": "MbBPVDd6KeVghCBnFI34mA=="
+          "hash": "QhuHdrZ5r8o1tnKMWqHOUw=="
         }
       },
       "is_incremental": false,
@@ -52,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OmiyaGames.Web.html",
-          "hash": "4PhjYSyVtRCxR4dgIl1tPg=="
+          "hash": "pS7VgDOaO22SynbJsFgDBA=="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "mypyLhdH16J+cwDtPRVKpA=="
+          "hash": "HtrbZy8/e0P49ocFCbJQsw=="
         }
       },
       "is_incremental": false,
@@ -100,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/changelog.html",
-          "hash": "f0HtYZbWN0OLecnmjEEk5A=="
+          "hash": "r6VU00Fy+hi1T/d4HUUWDw=="
         }
       },
       "is_incremental": false,
@@ -124,17 +124,6 @@
       "output": {
         "resource": {
           "relative_path": "resources/README.md"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/preview.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/preview.png"
         }
       },
       "is_incremental": false,
