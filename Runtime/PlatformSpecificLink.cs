@@ -9,7 +9,7 @@ namespace OmiyaGames.Web
     /// <copyright file="PlatformSpecificLink.cs" company="Omiya Games">
     /// The MIT License (MIT)
     /// 
-    /// Copyright (c) 2014-2018 Omiya Games
+    /// Copyright (c) 2014-2020 Omiya Games
     /// 
     /// Permission is hereby granted, free of charge, to any person obtaining a copy
     /// of this software and associated documentation files (the "Software"), to deal
@@ -110,7 +110,7 @@ namespace OmiyaGames.Web
         /// </summary>
         [Header("Web Links")]
         [Tooltip("The default link, in case the rest of the fields are not covered")]
-        [FormerlySerializedAsAttribute("webLink")]
+        [FormerlySerializedAs("webLink")]
         [SerializeField]
         private string defaultWebLink;
 #pragma warning disable 0414
@@ -134,19 +134,19 @@ namespace OmiyaGames.Web
         /// The link to this game's listing on the iOS Appstore website.
         /// </summary>
         [Header("Native Store Links")]
-        [FormerlySerializedAsAttribute("iosLink")]
+        [FormerlySerializedAs("iosLink")]
         [SerializeField]
         private string iosNativeLink;
         /// <summary>
         /// The link to this game's listing on the Google Play Store website.
         /// </summary>
-        [FormerlySerializedAsAttribute("androidLink")]
+        [FormerlySerializedAs("androidLink")]
         [SerializeField]
         private string androidNativeLink;
         /// <summary>
         /// The link to this game's listing on the Microsoft Store website.
         /// </summary>
-        [FormerlySerializedAsAttribute("windows10Link")]
+        [FormerlySerializedAs("windows10Link")]
         [SerializeField]
         private string windows10NativeLink;
 #pragma warning restore 0414
