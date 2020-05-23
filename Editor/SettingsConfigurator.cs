@@ -4,10 +4,11 @@ using UnityEditor;
 namespace OmiyaGames.Web.Editor
 {
     ///-----------------------------------------------------------------------
+    /// <remarks>
     /// <copyright file="SettingsConfigurator.cs" company="Omiya Games">
     /// The MIT License (MIT)
     /// 
-    /// Copyright (c) 2014-2019 Omiya Games
+    /// Copyright (c) 2014-2020 Omiya Games
     /// 
     /// Permission is hereby granted, free of charge, to any person obtaining a copy
     /// of this software and associated documentation files (the "Software"), to deal
@@ -27,17 +28,38 @@ namespace OmiyaGames.Web.Editor
     /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     /// THE SOFTWARE.
     /// </copyright>
-    /// <date>5/28/2019</date>
-    /// <author>Taro Omiya</author>
+    /// <list type="table">
+    /// <listheader>
+    /// <term>Revision</term>
+    /// <description>Description</description>
+    /// </listheader>
+    /// <item>
+    /// <term>
+    /// <strong>Date:</strong> 5/28/2019<br/>
+    /// <strong>Author:</strong> Taro Omiya
+    /// </term>
+    /// <description>Initial verison.</description>
+    /// </item>
+    /// <item>
+    /// <term>
+    /// <strong>Version:</strong> 0.2.0-preview.1<br/>
+    /// <strong>Date:</strong> 5/23/2020<br/>
+    /// <strong>Author:</strong> Taro Omiya
+    /// </term>
+    /// <description>Converting the file to a package.</description>
+    /// </item>
+    /// </list>
+    /// </remarks>
     ///-----------------------------------------------------------------------
     /// <summary>
     /// A series of tools that appear under the <code>Tools/Omiya Games</code>
     /// context menu.
     /// </summary>
-    /// <seealso cref="DomainList"/>
-    /// <seealso cref="WebLocationChecker"/>
     public class SettingsConfigurator : MonoBehaviour
     {
+        /// <summary>
+        /// Forces the WebGL Linker Target to switch to WASM
+        /// </summary>
         [MenuItem("Tools/Omiya Games/Force WebGL Linker to WASM")]
         public static void ForceWebGlLinkerToWasm()
         {
