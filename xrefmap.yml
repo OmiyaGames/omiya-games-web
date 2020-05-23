@@ -7,6 +7,31 @@ references:
   commentId: N:OmiyaGames.Web
   fullName: OmiyaGames.Web
   nameWithType: OmiyaGames.Web
+- uid: OmiyaGames.Web.Editor
+  name: OmiyaGames.Web.Editor
+  href: api/OmiyaGames.Web.Editor.html
+  commentId: N:OmiyaGames.Web.Editor
+  fullName: OmiyaGames.Web.Editor
+  nameWithType: OmiyaGames.Web.Editor
+- uid: OmiyaGames.Web.Editor.SettingsConfigurator
+  name: SettingsConfigurator
+  href: api/OmiyaGames.Web.Editor.SettingsConfigurator.html
+  commentId: T:OmiyaGames.Web.Editor.SettingsConfigurator
+  fullName: OmiyaGames.Web.Editor.SettingsConfigurator
+  nameWithType: SettingsConfigurator
+- uid: OmiyaGames.Web.Editor.SettingsConfigurator.ForceWebGlLinkerToWasm
+  name: ForceWebGlLinkerToWasm()
+  href: api/OmiyaGames.Web.Editor.SettingsConfigurator.html#OmiyaGames_Web_Editor_SettingsConfigurator_ForceWebGlLinkerToWasm
+  commentId: M:OmiyaGames.Web.Editor.SettingsConfigurator.ForceWebGlLinkerToWasm
+  fullName: OmiyaGames.Web.Editor.SettingsConfigurator.ForceWebGlLinkerToWasm()
+  nameWithType: SettingsConfigurator.ForceWebGlLinkerToWasm()
+- uid: OmiyaGames.Web.Editor.SettingsConfigurator.ForceWebGlLinkerToWasm*
+  name: ForceWebGlLinkerToWasm
+  href: api/OmiyaGames.Web.Editor.SettingsConfigurator.html#OmiyaGames_Web_Editor_SettingsConfigurator_ForceWebGlLinkerToWasm_
+  commentId: Overload:OmiyaGames.Web.Editor.SettingsConfigurator.ForceWebGlLinkerToWasm
+  isSpec: "True"
+  fullName: OmiyaGames.Web.Editor.SettingsConfigurator.ForceWebGlLinkerToWasm
+  nameWithType: SettingsConfigurator.ForceWebGlLinkerToWasm
 - uid: OmiyaGames.Web.PlatformSpecificLink
   name: PlatformSpecificLink
   href: api/OmiyaGames.Web.PlatformSpecificLink.html

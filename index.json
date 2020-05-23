@@ -1,4 +1,14 @@
 {
+  "api/OmiyaGames.Web.Editor.html": {
+    "href": "api/OmiyaGames.Web.Editor.html",
+    "title": "Namespace OmiyaGames.Web.Editor | Web documentation",
+    "keywords": "Namespace OmiyaGames.Web.Editor Classes SettingsConfigurator A series of tools that appear under the Tools/Omiya Games context menu."
+  },
+  "api/OmiyaGames.Web.Editor.SettingsConfigurator.html": {
+    "href": "api/OmiyaGames.Web.Editor.SettingsConfigurator.html",
+    "title": "Class SettingsConfigurator | Web documentation",
+    "keywords": "Class SettingsConfigurator A series of tools that appear under the Tools/Omiya Games context menu. Inheritance Object SettingsConfigurator Namespace : OmiyaGames.Web.Editor Assembly : cs.temp.dll.dll Syntax public class SettingsConfigurator : MonoBehaviour Remarks The MIT License (MIT) Copyright (c) 2014-2020 Omiya Games Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. Revision Description Date: 5/28/2019 Author: Taro Omiya Initial verison. Version: 0.2.0-preview.1 Date: 5/23/2020 Author: Taro Omiya Converting the file to a package. Methods ForceWebGlLinkerToWasm() Forces the WebGL Linker Target to switch to WASM Declaration public static void ForceWebGlLinkerToWasm()"
+  },
   "api/OmiyaGames.Web.html": {
     "href": "api/OmiyaGames.Web.html",
     "title": "Namespace OmiyaGames.Web | Web documentation",
@@ -22,7 +32,7 @@
   "manual/changelog.html": {
     "href": "manual/changelog.html",
     "title": "Change Log: | Web documentation",
-    "keywords": "Change Log: 0.1.0-preview.1 Initial release New Feature: added PlatformSpecificLink"
+    "keywords": "Change Log: 0.2.0-preview.1 New Feature: added SettingsConfigurator , which the only tool it adds is a file menu bar entry, Tools -> Omiya Games -> Force WebGL Linker to WASM . As the name imply, it changes the WebGL Linker settings to WASM. 0.1.0-preview.1 Initial release New Feature: added PlatformSpecificLink"
   },
   "manual/README.html": {
     "href": "manual/README.html",

@@ -24,6 +24,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OmiyaGames.Web.Editor.SettingsConfigurator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OmiyaGames.Web.Editor.SettingsConfigurator.html",
+          "hash": "1pI5QBGXxWTeefCN+8SNWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OmiyaGames.Web.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OmiyaGames.Web.Editor.html",
+          "hash": "HDngxjtoofOZ5CNzOkXZ/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OmiyaGames.Web.PlatformSpecificLink.SupportedPlatforms.yml",
       "output": {
         ".html": {
@@ -64,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "aqDwmlL7AsEVZf5beoGH8A=="
+          "hash": "itPNwoybxD4rm03QZwKrLg=="
         }
       },
       "is_incremental": false,
@@ -100,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/changelog.html",
-          "hash": "r6VU00Fy+hi1T/d4HUUWDw=="
+          "hash": "HJMDSiSD5bl3HwXbHmFrHw=="
         }
       },
       "is_incremental": false,
@@ -162,7 +186,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
