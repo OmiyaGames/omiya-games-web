@@ -1,5 +1,25 @@
 This package borrows code from various different sources, including:
 
+# `UrlHelpers.RemoveDiacritics(string, StringBuilder)`
+
+### Relevant Files
+- [Runtime/UrlHelpers.cs](https://github.com/OmiyaGames/omiya-games-web/blob/master/Runtime/UrlHelpers.cs)
+
+### Credits
+- Author: Michael S. Kaplan
+- Source: [RemoveDiacritics(string)](http://archives.miloush.net/michkap/archive/2007/05/14/2629747.html)
+
+# `UrlHelpers.GenerateSlug(string)`
+
+### Relevant Files
+- [Runtime/UrlHelpers.cs](https://github.com/OmiyaGames/omiya-games-web/blob/master/Runtime/UrlHelpers.cs)
+
+### Credits
+- Author: [John Roland](http://predicatet.blogspot.com)
+- Source: [GenerateSlug(string)](http://predicatet.blogspot.com/2009/04/improved-c-slug-generator-or-how-to.html)
+
+
+
 # [DocFX for Unity](https://github.com/NormandErwan/DocFxForUnity)
 
 ### Relevant Files
