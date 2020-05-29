@@ -1,7 +1,4 @@
-﻿using System.Text;
-using System.Collections.Generic;
-using System.Text.RegularExpressions;
-using System.Globalization;
+﻿using System.Text.RegularExpressions;
 
 namespace OmiyaGames.Web
 {
@@ -56,22 +53,6 @@ namespace OmiyaGames.Web
         /// </summary>
         public const int MaxSlugLength = 45;
         /// <summary>
-        /// Set of invalid folder chars: "/, \, :, *, ?, ", <, >, and |."
-        /// </summary>
-        public static readonly ISet<char> InvalidFileNameCharactersSet = new HashSet<char>()
-        {
-            '\\',
-            '/',
-            ':',
-            '*',
-            '?',
-            '"',
-            '<',
-            '>',
-            '|'
-        };
-
-        /// <summary>
         /// Common strings that appears at the start of web URLs.
         /// </summary>
         public static readonly string[] stripStartOfUrl = new string[]
@@ -99,48 +80,6 @@ namespace OmiyaGames.Web
             }
             url = url.TrimEnd('/');
             return url;
-        }
-
-        /// <summary>
-        /// Removes any invalid characters for building a file name.
-        /// </summary>
-        /// <param name="text">Text to remove diacritics from.</param>
-        /// <param name="stringBuilder">
-        /// An optional <see cref="StringBuilder"/> this method will use to
-        /// generate the returned string. Good for performance.
-        /// </param>
-        /// <returns>
-        /// <paramref name="text"/> with invalid file characters removed.
-        /// </returns>
-        /// <remarks>
-        /// Taken from http://archives.miloush.net/michkap/archive/2007/05/14/2629747.html
-        /// </remarks>
-        public static string RemoveDiacritics(string text, StringBuilder stringBuilder = null)
-        {
-            // Setup StringBuilder
-            if (stringBuilder == null)
-            {
-                stringBuilder = new StringBuilder(text.Length);
-            }
-            else
-            {
-                stringBuilder.Clear();
-            }
-
-            // Go through each character in the string.
-            string normalizedString = text.Normalize(NormalizationForm.FormD);
-            foreach (char c in normalizedString)
-            {
-                // Check if this character is valid
-                UnicodeCategory unicodeCategory = CharUnicodeInfo.GetUnicodeCategory(c);
-                if ((unicodeCategory != UnicodeCategory.NonSpacingMark) && (InvalidFileNameCharactersSet.Contains(c) == false))
-                {
-                    // If so, append to the String Builder.
-                    stringBuilder.Append(c);
-                }
-            }
-
-            return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
         }
 
         /// <summary>
