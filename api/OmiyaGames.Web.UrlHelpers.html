@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct PlatformSpecificLink
+    <title>Class UrlHelpers
    | Web documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct PlatformSpecificLink
+    <meta name="title" content="Class UrlHelpers
    | Web documentation ">
     <meta name="generator" content="docfx 2.54.0.0">
     
@@ -78,26 +78,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="OmiyaGames.Web.PlatformSpecificLink">
+            <article class="content wrap" id="_content" data-uid="OmiyaGames.Web.UrlHelpers">
   
   
-  <h1 id="OmiyaGames_Web_PlatformSpecificLink" data-uid="OmiyaGames.Web.PlatformSpecificLink" class="text-break">Struct PlatformSpecificLink
+  <h1 id="OmiyaGames_Web_UrlHelpers" data-uid="OmiyaGames.Web.UrlHelpers" class="text-break">Class UrlHelpers
   </h1>
-  <div class="markdown level0 summary"><p>A struct that returns a link specific to a platform.
-Useful as a <see cref="!:SerializedField"></see> set in the inspector.</p>
+  <div class="markdown level0 summary"><p>A series of utilities used throughout the <a class="xref" href="OmiyaGames.Web.html">OmiyaGames.Web</a> namespace.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">UrlHelpers</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OmiyaGames.Web.html">OmiyaGames.Web</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="OmiyaGames_Web_PlatformSpecificLink_syntax">Syntax</h5>
+  <h5 id="OmiyaGames_Web_UrlHelpers_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public struct PlatformSpecificLink</code></pre>
+    <pre><code class="lang-csharp hljs">public static class UrlHelpers</code></pre>
   </div>
-  <h5 id="OmiyaGames_Web_PlatformSpecificLink_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p><copyright file="PlatformSpecificLink.cs" company="Omiya Games">
+  <h5 id="OmiyaGames_Web_UrlHelpers_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p><copyright file="UrlHelpers.cs" company="Omiya Games">
 The MIT License (MIT)<p>
-<p>Copyright (c) 2014-2020 Omiya Games</p>
+<p>Copyright (c) 2020 Omiya Games</p>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &quot;Software&quot;), to deal
 in the Software without restriction, including without limitation the rights
@@ -115,28 +118,24 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </copyright>
 <table><thead><tr><th>Revision</th><th>Description</th></tr></thead><tbody><tr><td>
-<strong>Date:</strong> 9/22/2016<br>
+<strong>Version:</strong> 0.3.0-preview.1<br>
+<strong>Date:</strong> 5/25/2020<br>
 <strong>Author:</strong> Taro Omiya
-</td><td>Initial verison.</td></tr><tr><td>
-<strong>Version:</strong> 0.1.0-preview.1<br>
-<strong>Date:</strong> 5/17/2020<br>
-<strong>Author:</strong> Taro Omiya
-</td><td>Converting the file to a package.</td></tr></tbody></table></p>
+</td><td>Initial version.</td></tr></tbody></table></p>
 </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="OmiyaGames_Web_PlatformSpecificLink_Platform_" data-uid="OmiyaGames.Web.PlatformSpecificLink.Platform*"></a>
-  <h4 id="OmiyaGames_Web_PlatformSpecificLink_Platform" data-uid="OmiyaGames.Web.PlatformSpecificLink.Platform">Platform</h4>
-  <div class="markdown level1 summary"><p>Gets what native app store this platform supports.</p>
+  <h4 id="OmiyaGames_Web_UrlHelpers_MaxSlugLength" data-uid="OmiyaGames.Web.UrlHelpers.MaxSlugLength">MaxSlugLength</h4>
+  <div class="markdown level1 summary"><p>The maximum WebGL build name</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PlatformSpecificLink.SupportedPlatforms Platform { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public const int MaxSlugLength = 45</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -146,23 +145,22 @@ THE SOFTWARE.
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="OmiyaGames.Web.PlatformSpecificLink.SupportedPlatforms.html">PlatformSpecificLink.SupportedPlatforms</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="OmiyaGames_Web_PlatformSpecificLink_PlatformLink_" data-uid="OmiyaGames.Web.PlatformSpecificLink.PlatformLink*"></a>
-  <h4 id="OmiyaGames_Web_PlatformSpecificLink_PlatformLink" data-uid="OmiyaGames.Web.PlatformSpecificLink.PlatformLink">PlatformLink</h4>
-  <div class="markdown level1 summary"><p>Gets the link to the native app store.</p>
+  <h4 id="OmiyaGames_Web_UrlHelpers_stripStartOfUrl" data-uid="OmiyaGames.Web.UrlHelpers.stripStartOfUrl">stripStartOfUrl</h4>
+  <div class="markdown level1 summary"><p>Common strings that appears at the start of web URLs.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PlatformLink { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly string[] stripStartOfUrl</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -172,57 +170,23 @@ THE SOFTWARE.
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="OmiyaGames_Web_PlatformSpecificLink_PlatformLink_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="OmiyaGames.Web.PlatformSpecificLink.html#OmiyaGames_Web_PlatformSpecificLink_GetPlatformLink_OmiyaGames_Web_PlatformSpecificLink_SupportedPlatforms_">GetPlatformLink(PlatformSpecificLink.SupportedPlatforms)</a></div>
-  </div>
-  
-  
-  <a id="OmiyaGames_Web_PlatformSpecificLink_WebLink_" data-uid="OmiyaGames.Web.PlatformSpecificLink.WebLink*"></a>
-  <h4 id="OmiyaGames_Web_PlatformSpecificLink_WebLink" data-uid="OmiyaGames.Web.PlatformSpecificLink.WebLink">WebLink</h4>
-  <div class="markdown level1 summary"><p>Gets the default web link.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string WebLink { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="OmiyaGames_Web_PlatformSpecificLink_WebLink_seealso">See Also</h5>
-  <div class="seealso">
-      <div><span class="xref">OmiyaGames.Web.PlatformSpecificLink.defaultWebLink</span></div>
-  </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="OmiyaGames_Web_PlatformSpecificLink_GetPlatformLink_" data-uid="OmiyaGames.Web.PlatformSpecificLink.GetPlatformLink*"></a>
-  <h4 id="OmiyaGames_Web_PlatformSpecificLink_GetPlatformLink_OmiyaGames_Web_PlatformSpecificLink_SupportedPlatforms_" data-uid="OmiyaGames.Web.PlatformSpecificLink.GetPlatformLink(OmiyaGames.Web.PlatformSpecificLink.SupportedPlatforms)">GetPlatformLink(PlatformSpecificLink.SupportedPlatforms)</h4>
-  <div class="markdown level1 summary"><p>Grabs a link for a specific platform.</p>
+  <a id="OmiyaGames_Web_UrlHelpers_GenerateSlug_" data-uid="OmiyaGames.Web.UrlHelpers.GenerateSlug*"></a>
+  <h4 id="OmiyaGames_Web_UrlHelpers_GenerateSlug_System_String_" data-uid="OmiyaGames.Web.UrlHelpers.GenerateSlug(System.String)">GenerateSlug(String)</h4>
+  <div class="markdown level1 summary"><p>Converts a filename to a web-friendly string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetPlatformLink(PlatformSpecificLink.SupportedPlatforms platform)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GenerateSlug(string originalString)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -235,9 +199,10 @@ THE SOFTWARE.
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="OmiyaGames.Web.PlatformSpecificLink.SupportedPlatforms.html">PlatformSpecificLink.SupportedPlatforms</a></td>
-        <td><span class="parametername">platform</span></td>
-        <td></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">originalString</span></td>
+        <td><p>Original file name.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -252,7 +217,56 @@ THE SOFTWARE.
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
+        <td><p>A web-friendly slug.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="OmiyaGames_Web_UrlHelpers_GenerateSlug_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Taken from <a href="http://predicatet.blogspot.com/2009/04/improved-c-slug-generator-or-how-to.html">http://predicatet.blogspot.com/2009/04/improved-c-slug-generator-or-how-to.html</a></p>
+</div>
+  
+  
+  <a id="OmiyaGames_Web_UrlHelpers_ShortenUrl_" data-uid="OmiyaGames.Web.UrlHelpers.ShortenUrl*"></a>
+  <h4 id="OmiyaGames_Web_UrlHelpers_ShortenUrl_System_String_" data-uid="OmiyaGames.Web.UrlHelpers.ShortenUrl(System.String)">ShortenUrl(String)</h4>
+  <div class="markdown level1 summary"><p>Removes the https:// and the last / from a web URL.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ShortenUrl(string url)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">url</span></td>
+        <td><p>Full web URL.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>Shortened web URL.</p>
+</td>
       </tr>
     </tbody>
   </table>

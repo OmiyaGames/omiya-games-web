@@ -150,3 +150,47 @@ references:
   isSpec: "True"
   fullName: OmiyaGames.Web.PlatformSpecificLink.WebLink
   nameWithType: PlatformSpecificLink.WebLink
+- uid: OmiyaGames.Web.UrlHelpers
+  name: UrlHelpers
+  href: api/OmiyaGames.Web.UrlHelpers.html
+  commentId: T:OmiyaGames.Web.UrlHelpers
+  fullName: OmiyaGames.Web.UrlHelpers
+  nameWithType: UrlHelpers
+- uid: OmiyaGames.Web.UrlHelpers.GenerateSlug(System.String)
+  name: GenerateSlug(String)
+  href: api/OmiyaGames.Web.UrlHelpers.html#OmiyaGames_Web_UrlHelpers_GenerateSlug_System_String_
+  commentId: M:OmiyaGames.Web.UrlHelpers.GenerateSlug(System.String)
+  fullName: OmiyaGames.Web.UrlHelpers.GenerateSlug(System.String)
+  nameWithType: UrlHelpers.GenerateSlug(String)
+- uid: OmiyaGames.Web.UrlHelpers.GenerateSlug*
+  name: GenerateSlug
+  href: api/OmiyaGames.Web.UrlHelpers.html#OmiyaGames_Web_UrlHelpers_GenerateSlug_
+  commentId: Overload:OmiyaGames.Web.UrlHelpers.GenerateSlug
+  isSpec: "True"
+  fullName: OmiyaGames.Web.UrlHelpers.GenerateSlug
+  nameWithType: UrlHelpers.GenerateSlug
+- uid: OmiyaGames.Web.UrlHelpers.MaxSlugLength
+  name: MaxSlugLength
+  href: api/OmiyaGames.Web.UrlHelpers.html#OmiyaGames_Web_UrlHelpers_MaxSlugLength
+  commentId: F:OmiyaGames.Web.UrlHelpers.MaxSlugLength
+  fullName: OmiyaGames.Web.UrlHelpers.MaxSlugLength
+  nameWithType: UrlHelpers.MaxSlugLength
+- uid: OmiyaGames.Web.UrlHelpers.ShortenUrl(System.String)
+  name: ShortenUrl(String)
+  href: api/OmiyaGames.Web.UrlHelpers.html#OmiyaGames_Web_UrlHelpers_ShortenUrl_System_String_
+  commentId: M:OmiyaGames.Web.UrlHelpers.ShortenUrl(System.String)
+  fullName: OmiyaGames.Web.UrlHelpers.ShortenUrl(System.String)
+  nameWithType: UrlHelpers.ShortenUrl(String)
+- uid: OmiyaGames.Web.UrlHelpers.ShortenUrl*
+  name: ShortenUrl
+  href: api/OmiyaGames.Web.UrlHelpers.html#OmiyaGames_Web_UrlHelpers_ShortenUrl_
+  commentId: Overload:OmiyaGames.Web.UrlHelpers.ShortenUrl
+  isSpec: "True"
+  fullName: OmiyaGames.Web.UrlHelpers.ShortenUrl
+  nameWithType: UrlHelpers.ShortenUrl
+- uid: OmiyaGames.Web.UrlHelpers.stripStartOfUrl
+  name: stripStartOfUrl
+  href: api/OmiyaGames.Web.UrlHelpers.html#OmiyaGames_Web_UrlHelpers_stripStartOfUrl
+  commentId: F:OmiyaGames.Web.UrlHelpers.stripStartOfUrl
+  fullName: OmiyaGames.Web.UrlHelpers.stripStartOfUrl
+  nameWithType: UrlHelpers.stripStartOfUrl
