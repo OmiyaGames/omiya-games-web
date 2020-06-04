@@ -34,7 +34,7 @@ namespace OmiyaGames.Web
     /// </listheader>
     /// <item>
     /// <term>
-    /// <strong>Version:</strong> 0.2.0-preview.1<br/>
+    /// <strong>Version:</strong> 0.3.0-preview.1<br/>
     /// <strong>Date:</strong> 5/25/2020<br/>
     /// <strong>Author:</strong> Taro Omiya
     /// </term>

@@ -1,5 +1,14 @@
 This package borrows code from various different sources, including:
 
+# `UrlHelpers.GenerateSlug(string)`
+
+### Relevant Files
+- [Runtime/UrlHelpers.cs](https://github.com/OmiyaGames/omiya-games-web/blob/master/Runtime/UrlHelpers.cs)
+
+### Credits
+- Author: [John Roland](http://predicatet.blogspot.com)
+- Source: [GenerateSlug(string)](http://predicatet.blogspot.com/2009/04/improved-c-slug-generator-or-how-to.html)
+
 # [DocFX for Unity](https://github.com/NormandErwan/DocFxForUnity)
 
 ### Relevant Files
