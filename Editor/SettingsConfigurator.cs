@@ -52,7 +52,7 @@ namespace OmiyaGames.Web.Editor
     /// </remarks>
     ///-----------------------------------------------------------------------
     /// <summary>
-    /// A series of tools that appear under the <code>Tools/Omiya Games</code>
+    /// A series of tools that appear under "Tools -> Omiya Games"
     /// context menu.
     /// </summary>
     public class SettingsConfigurator : MonoBehaviour
