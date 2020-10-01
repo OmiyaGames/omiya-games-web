@@ -1,5 +1,9 @@
 # Change Log:
 
+## 0.3.0-preview.2
+
+- Refactor: Upgrading [Omiya Games - Common](https://openupm.com/packages/com.omiyagames.common) package dependency version to `0.2.0-preview.1`.
+
 ## 0.3.0-preview.1
 
 - New Feature: added [`UrlHelpers`](https://github.com/OmiyaGames/omiya-games-web/blob/master/Runtime/UrlHelpers.cs), a group of functions for making ceratin URL strings easier.
