@@ -37,7 +37,7 @@
   "manual/changelog.html": {
     "href": "manual/changelog.html",
     "title": "Change Log: | Web documentation",
-    "keywords": "Change Log: 0.3.0-preview.1 New Feature: added UrlHelpers , a group of functions for making ceratin URL strings easier. 0.2.0-preview.1 New Feature: added SettingsConfigurator , which the only tool it adds is a file menu bar entry, Tools -> Omiya Games -> Force WebGL Linker to WASM . As the name imply, it changes the WebGL Linker settings to WASM. 0.1.0-preview.1 Initial release New Feature: added PlatformSpecificLink"
+    "keywords": "Change Log: 0.3.0-preview.2 Refactor: Upgrading Omiya Games - Common package dependency version to 0.2.0-preview.1 . 0.3.0-preview.1 New Feature: added UrlHelpers , a group of functions for making ceratin URL strings easier. 0.2.0-preview.1 New Feature: added SettingsConfigurator , which the only tool it adds is a file menu bar entry, Tools -> Omiya Games -> Force WebGL Linker to WASM . As the name imply, it changes the WebGL Linker settings to WASM. 0.1.0-preview.1 Initial release New Feature: added PlatformSpecificLink"
   },
   "manual/README.html": {
     "href": "manual/README.html",
