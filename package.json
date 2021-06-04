@@ -1,7 +1,7 @@
 {
   "name": "com.omiyagames.web",
   "displayName": "Omiya Games - Web",
-  "version": "0.3.0-preview.2",
+  "version": "0.3.0-preview.3",
   "unity": "2021.1",
   "unityRelease": "9f1",
   "description": "Helper tools and libraries on web-related stuff.",
