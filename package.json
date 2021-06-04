@@ -2,8 +2,8 @@
   "name": "com.omiyagames.web",
   "displayName": "Omiya Games - Web",
   "version": "0.3.0-preview.2",
-  "unity": "2020.1",
-  "unityRelease": "6f1",
+  "unity": "2021.1",
+  "unityRelease": "9f1",
   "description": "Helper tools and libraries on web-related stuff.",
   "category": "Tool",
   "type": "tool",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "com.unity.ext.nunit": "1.0.0",
-    "com.omiyagames.common": "0.2.0-preview.1"
+    "com.omiyagames.common": "0.2.0-preview.2"
   },
   "keywords": [
     "Omiya Games",
