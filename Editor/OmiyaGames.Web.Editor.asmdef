@@ -1,7 +1,8 @@
 {
     "name": "OmiyaGames.Web.Editor",
+    "rootNamespace": "OmiyaGames.Web.Editor",
     "references": [
-        "OmiyaGames.Web"
+        "GUID:cdc4947907db47a4bafdf68c192e74ff"
     ],
     "includePlatforms": [
         "Editor"
@@ -12,5 +13,6 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": []
+    "versionDefines": [],
+    "noEngineReferences": false
 }
