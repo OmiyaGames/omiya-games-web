@@ -1,20 +1,25 @@
 {
     "name": "OmiyaGames.Web.Editor.Tests",
+    "rootNamespace": "",
     "references": [
-        "OmiyaGames.Web",
-        "OmiyaGames.Web.Editor"
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:cdc4947907db47a4bafdf68c192e74ff",
+        "GUID:d076525d750a7404cb6d6e5e849390dc"
     ],
     "includePlatforms": [
         "Editor"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
     "versionDefines": [],
-    "optionalUnityReferences": [
-        "TestAssemblies"
-    ]
+    "noEngineReferences": false
 }

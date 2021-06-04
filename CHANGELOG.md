@@ -1,5 +1,9 @@
 # Change Log:
 
+## 0.3.0-preview.3
+
+- Enhancment: upgrading the assembly definitions and package files.
+
 ## 0.3.0-preview.2
 
 - Refactor: Upgrading [Omiya Games - Common](https://openupm.com/packages/com.omiyagames.common) package dependency version to `0.2.0-preview.1`.
