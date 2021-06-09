@@ -1,12 +1,12 @@
 {
   "name": "com.omiyagames.web",
   "displayName": "Omiya Games - Web",
-  "version": "0.3.0-preview.3",
+  "version": "1.0.0",
   "unity": "2021.1",
   "unityRelease": "9f1",
   "description": "Helper tools and libraries on web-related stuff.",
   "category": "Tool",
-  "type": "tool",
+  "type": "library",
   "license": "MIT",
   "author": {
     "name": "Taro Omiya",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "com.unity.ext.nunit": "1.0.0",
-    "com.omiyagames.common": "0.2.0-preview.2"
+    "com.omiyagames.common": "1.0.0"
   },
   "keywords": [
     "Omiya Games",
