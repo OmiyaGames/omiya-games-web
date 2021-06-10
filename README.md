@@ -1,6 +1,6 @@
 # [Omiya Games](https://www.omiyagames.com/) - Web
 
-[![openupm](https://img.shields.io/npm/v/com.omiyagames.web?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.omiyagames.web/) [![Documentation](https://github.com/OmiyaGames/omiya-games-web/workflows/Host%20DocFX%20Documentation/badge.svg)](https://omiyagames.github.io/omiya-games-web/) [![Mirroring](https://github.com/OmiyaGames/omiya-games-web/workflows/Mirroring/badge.svg)](https://bitbucket.org/OmiyaGames/omiya-games-web) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I51KS8F)
+[![openupm](https://img.shields.io/npm/v/com.omiyagames.web?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.omiyagames.web/) [![Documentation](https://github.com/OmiyaGames/omiya-games-web/workflows/Host%20DocFX%20Documentation/badge.svg)](https://omiyagames.github.io/omiya-games-web/) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I51KS8F)
 
 A set of libraries [Omiya Games](https://www.omiyagames.com/) uses to support web-related features and activities.
 
